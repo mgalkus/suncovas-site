@@ -1,0 +1,39 @@
+.main-screen {
+    display: none;
+    opacity: 0;
+
+    &.fading-in {
+        opacity: 1;
+        transition: opacity 1s;
+    }
+
+    .outer-container {
+        display: flex;
+    }
+
+    &--nav-container {
+        background: var(--yellow);
+    }
+
+    &--years-container {
+        background: var(--yellow);
+    }
+
+    &--inner-container {
+        margin-top: var(--innerContMarginTop);
+        background: url('../assets/background-laptop.svg') no-repeat;
+        background-position: center 0;
+        background-size: calc(1200px - var(--innerContPaddingSides)*2);
+        height: 2800px;
+        position: relative;
+        padding: var(--gridTopPadding) var(--innerContPaddingSides) 0 var(--innerContPaddingSides);
+        display: grid;
+        grid-template-columns: repeat(4, var(--gridColWidth));
+        grid-template-rows: repeat(10, var(--gridRowHeight));
+        justify-items: center;
+        align-items: center;
+    }
+
+
+
+}

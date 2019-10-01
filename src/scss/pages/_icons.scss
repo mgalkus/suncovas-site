@@ -1,0 +1,47 @@
+.main-screen {
+
+    &--icon {
+        transform: scale(1.03);
+        cursor: pointer;
+
+
+        &.irregular-center {
+            @include irregularCenter;
+        }
+
+        &.irregular-right {
+            @include irregularRight;
+        }
+
+        &.regular-center {
+            @include regularCenter;
+        }
+    }
+
+    // Year 2019
+    &--icon-pole {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    &--icon-tree {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    &--icon-cells-2 {
+        grid-column: 4;
+        grid-row: 2;
+    }
+
+    &--icon-dog {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    //Year 2018
+    &--icon-flow {
+        grid-column: 2;
+        grid-row: 4;
+    }
+}

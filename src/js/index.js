@@ -1,22 +1,29 @@
 const qs = document.querySelector.bind(document);
 const qsAll = document.querySelectorAll.bind(document);
+const fadingtime = 200;
 
 (function randomLandingImage() {
     window.addEventListener('load', () => {
-        const photoPaths = ["1.2e53255b.jpg", "2.8eb0a0ee.jpg", "3.70a9ef25.jpg"];
-        let randomNr = Math.floor(Math.random() * Math.floor(3));
+        qs('.landing-screen').classList.add('fading-in');
+        const photoPaths = ["landing-1.9f4c7fad.jpg", "landing-2.306b48f1.jpg", "landing-3.31a9aa55.jpg", "landing-4.cbe8f9d2.jpg", "landing-5.968336aa.jpg"];
+        let randomNr = Math.floor(Math.random() * Math.floor(5));
         qs('.landing-img').src = photoPaths[randomNr];
     })
 })();
 
 (function enterMainScreen() {
     qs('.enter-button').addEventListener('click', () => {
-        qs('.landing-screen').style.display = 'none';
-        qs('.main-screen').style.display = 'block';
+        qs('.landing-screen').classList.add('fading-out');
+        setTimeout(() => {
+            qs('.landing-screen').style.display = 'none';
+        }, fadingtime);
 
         setTimeout(() => {
-            qs('.main-screen').style.opacity = '1';
-        }, 10);
+            qs('.main-screen').style.display = 'block';
+        }, fadingtime);
 
+        setTimeout(() => {
+            qs('.main-screen').classList.add('fading-in');
+        }, fadingtime + 10);
     })
 })()

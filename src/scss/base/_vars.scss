@@ -1,7 +1,10 @@
-$black:#252d32;
-$dark-blue:#2d4152;
-$grey:#616769;
-$light-blue:#a7f0ff;
-$mid-blue:#58d4f0;
-$purple:#646a94;
-$sand:#ecd2bc;
+:root {
+    --innerContPaddingSides: 40px;
+    --innerContMarginTop: 70px;
+    --gridTopPadding: 56px;
+    --gridRowHeight: 157.5px;
+    --gridColWidth: 236px;
+    --halfGridColWidth: calc(var(--gridColWidth)/2);
+
+    --yellow: #fedd02;
+}

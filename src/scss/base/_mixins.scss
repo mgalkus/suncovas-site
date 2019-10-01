@@ -4,3 +4,16 @@
     font-weight: 300;
     width: 100%;
 }
+
+@mixin irregularCenter {
+    margin-right: -250px;
+}
+
+@mixin irregularRight {
+    margin-right: -469px;
+}
+
+
+@mixin regularCenter {
+    margin-right: -30px;
+}
