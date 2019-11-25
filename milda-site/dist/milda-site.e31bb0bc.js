@@ -117,12 +117,12 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"assets/img-10.jpg":[function(require,module,exports) {
+})({"assets/img-1.jpg":[function(require,module,exports) {
+module.exports = "/img-1.d9cefce6.jpg";
+},{}],"assets/img-10.jpg":[function(require,module,exports) {
 module.exports = "/img-10.91ca4a7c.jpg";
 },{}],"assets/img-11.jpg":[function(require,module,exports) {
 module.exports = "/img-11.c3e9f938.jpg";
-},{}],"assets/img-1.jpg":[function(require,module,exports) {
-module.exports = "/img-1.d9cefce6.jpg";
 },{}],"assets/img-12.jpg":[function(require,module,exports) {
 module.exports = "/img-12.462f4dbb.jpg";
 },{}],"assets/img-13.jpg":[function(require,module,exports) {
@@ -141,10 +141,10 @@ module.exports = "/img-18.7c6f09ea.jpg";
 module.exports = "/img-19.76568509.jpg";
 },{}],"assets/img-2.jpg":[function(require,module,exports) {
 module.exports = "/img-2.1a909534.jpg";
-},{}],"assets/img-21.jpg":[function(require,module,exports) {
-module.exports = "/img-21.a1620b6c.jpg";
 },{}],"assets/img-20.jpg":[function(require,module,exports) {
 module.exports = "/img-20.eb529bbe.jpg";
+},{}],"assets/img-21.jpg":[function(require,module,exports) {
+module.exports = "/img-21.a1620b6c.jpg";
 },{}],"assets/img-22.jpg":[function(require,module,exports) {
 module.exports = "/img-22.d78ed042.jpg";
 },{}],"assets/img-23.jpg":[function(require,module,exports) {
@@ -161,28 +161,28 @@ module.exports = "/img-27.dee33b09.jpg";
 module.exports = "/img-28.fb75a547.jpg";
 },{}],"assets/img-29.jpg":[function(require,module,exports) {
 module.exports = "/img-29.feb4efcb.jpg";
-},{}],"assets/img-30.jpg":[function(require,module,exports) {
-module.exports = "/img-30.f63d4596.jpg";
 },{}],"assets/img-3.jpg":[function(require,module,exports) {
 module.exports = "/img-3.0934c93e.jpg";
+},{}],"assets/img-30.jpg":[function(require,module,exports) {
+module.exports = "/img-30.f63d4596.jpg";
 },{}],"assets/img-31.jpg":[function(require,module,exports) {
 module.exports = "/img-31.d17eed83.jpg";
 },{}],"assets/img-32.jpg":[function(require,module,exports) {
 module.exports = "/img-32.00b4bd9b.jpg";
-},{}],"assets/img-34.jpg":[function(require,module,exports) {
-module.exports = "/img-34.bf109501.jpg";
 },{}],"assets/img-33.jpg":[function(require,module,exports) {
 module.exports = "/img-33.98fffe8d.jpg";
+},{}],"assets/img-34.jpg":[function(require,module,exports) {
+module.exports = "/img-34.bf109501.jpg";
 },{}],"assets/img-35.jpg":[function(require,module,exports) {
 module.exports = "/img-35.fb9e8229.jpg";
 },{}],"assets/img-36.jpg":[function(require,module,exports) {
 module.exports = "/img-36.5d7e022c.jpg";
 },{}],"assets/img-37.jpg":[function(require,module,exports) {
 module.exports = "/img-37.4fdecfbb.jpg";
-},{}],"assets/img-39.jpg":[function(require,module,exports) {
-module.exports = "/img-39.1e4e2c18.jpg";
 },{}],"assets/img-38.jpg":[function(require,module,exports) {
 module.exports = "/img-38.be418166.jpg";
+},{}],"assets/img-39.jpg":[function(require,module,exports) {
+module.exports = "/img-39.1e4e2c18.jpg";
 },{}],"assets/img-4.jpg":[function(require,module,exports) {
 module.exports = "/img-4.9d0aa0a4.jpg";
 },{}],"assets/img-40.jpg":[function(require,module,exports) {
@@ -217,14 +217,14 @@ module.exports = "/img-52.a0bee02f.jpg";
 module.exports = "/img-53.f22992ea.jpg";
 },{}],"assets/img-54.jpg":[function(require,module,exports) {
 module.exports = "/img-54.9c5a1a75.jpg";
+},{}],"assets/img-55.jpg":[function(require,module,exports) {
+module.exports = "/img-55.243ff2ea.jpg";
 },{}],"assets/img-56.jpg":[function(require,module,exports) {
 module.exports = "/img-56.3269945f.jpg";
 },{}],"assets/img-57.jpg":[function(require,module,exports) {
 module.exports = "/img-57.0fea9a5a.jpg";
 },{}],"assets/img-58.jpg":[function(require,module,exports) {
 module.exports = "/img-58.c2a5961c.jpg";
-},{}],"assets/img-55.jpg":[function(require,module,exports) {
-module.exports = "/img-55.243ff2ea.jpg";
 },{}],"assets/img-59.jpg":[function(require,module,exports) {
 module.exports = "/img-59.c8dab41e.jpg";
 },{}],"assets/img-6.jpg":[function(require,module,exports) {
@@ -306,7 +306,7 @@ module.exports = {
   "61": require("./img-61.jpg"),
   "62": require("./img-62.jpg")
 };
-},{"./img-10.jpg":"assets/img-10.jpg","./img-11.jpg":"assets/img-11.jpg","./img-1.jpg":"assets/img-1.jpg","./img-12.jpg":"assets/img-12.jpg","./img-13.jpg":"assets/img-13.jpg","./img-14.jpg":"assets/img-14.jpg","./img-15.jpg":"assets/img-15.jpg","./img-16.jpg":"assets/img-16.jpg","./img-17.jpg":"assets/img-17.jpg","./img-18.jpg":"assets/img-18.jpg","./img-19.jpg":"assets/img-19.jpg","./img-2.jpg":"assets/img-2.jpg","./img-21.jpg":"assets/img-21.jpg","./img-20.jpg":"assets/img-20.jpg","./img-22.jpg":"assets/img-22.jpg","./img-23.jpg":"assets/img-23.jpg","./img-24.jpg":"assets/img-24.jpg","./img-25.jpg":"assets/img-25.jpg","./img-26.jpg":"assets/img-26.jpg","./img-27.jpg":"assets/img-27.jpg","./img-28.jpg":"assets/img-28.jpg","./img-29.jpg":"assets/img-29.jpg","./img-30.jpg":"assets/img-30.jpg","./img-3.jpg":"assets/img-3.jpg","./img-31.jpg":"assets/img-31.jpg","./img-32.jpg":"assets/img-32.jpg","./img-34.jpg":"assets/img-34.jpg","./img-33.jpg":"assets/img-33.jpg","./img-35.jpg":"assets/img-35.jpg","./img-36.jpg":"assets/img-36.jpg","./img-37.jpg":"assets/img-37.jpg","./img-39.jpg":"assets/img-39.jpg","./img-38.jpg":"assets/img-38.jpg","./img-4.jpg":"assets/img-4.jpg","./img-40.jpg":"assets/img-40.jpg","./img-41.jpg":"assets/img-41.jpg","./img-42.jpg":"assets/img-42.jpg","./img-43.jpg":"assets/img-43.jpg","./img-44.jpg":"assets/img-44.jpg","./img-45.jpg":"assets/img-45.jpg","./img-46.jpg":"assets/img-46.jpg","./img-47.jpg":"assets/img-47.jpg","./img-48.jpg":"assets/img-48.jpg","./img-49.jpg":"assets/img-49.jpg","./img-5.jpg":"assets/img-5.jpg","./img-50.jpg":"assets/img-50.jpg","./img-51.jpg":"assets/img-51.jpg","./img-52.jpg":"assets/img-52.jpg","./img-53.jpg":"assets/img-53.jpg","./img-54.jpg":"assets/img-54.jpg","./img-56.jpg":"assets/img-56.jpg","./img-57.jpg":"assets/img-57.jpg","./img-58.jpg":"assets/img-58.jpg","./img-55.jpg":"assets/img-55.jpg","./img-59.jpg":"assets/img-59.jpg","./img-6.jpg":"assets/img-6.jpg","./img-60.jpg":"assets/img-60.jpg","./img-61.jpg":"assets/img-61.jpg","./img-62.jpg":"assets/img-62.jpg","./img-7.jpg":"assets/img-7.jpg","./img-8.jpg":"assets/img-8.jpg","./img-9.jpg":"assets/img-9.jpg"}],"index.js":[function(require,module,exports) {
+},{"./img-1.jpg":"assets/img-1.jpg","./img-10.jpg":"assets/img-10.jpg","./img-11.jpg":"assets/img-11.jpg","./img-12.jpg":"assets/img-12.jpg","./img-13.jpg":"assets/img-13.jpg","./img-14.jpg":"assets/img-14.jpg","./img-15.jpg":"assets/img-15.jpg","./img-16.jpg":"assets/img-16.jpg","./img-17.jpg":"assets/img-17.jpg","./img-18.jpg":"assets/img-18.jpg","./img-19.jpg":"assets/img-19.jpg","./img-2.jpg":"assets/img-2.jpg","./img-20.jpg":"assets/img-20.jpg","./img-21.jpg":"assets/img-21.jpg","./img-22.jpg":"assets/img-22.jpg","./img-23.jpg":"assets/img-23.jpg","./img-24.jpg":"assets/img-24.jpg","./img-25.jpg":"assets/img-25.jpg","./img-26.jpg":"assets/img-26.jpg","./img-27.jpg":"assets/img-27.jpg","./img-28.jpg":"assets/img-28.jpg","./img-29.jpg":"assets/img-29.jpg","./img-3.jpg":"assets/img-3.jpg","./img-30.jpg":"assets/img-30.jpg","./img-31.jpg":"assets/img-31.jpg","./img-32.jpg":"assets/img-32.jpg","./img-33.jpg":"assets/img-33.jpg","./img-34.jpg":"assets/img-34.jpg","./img-35.jpg":"assets/img-35.jpg","./img-36.jpg":"assets/img-36.jpg","./img-37.jpg":"assets/img-37.jpg","./img-38.jpg":"assets/img-38.jpg","./img-39.jpg":"assets/img-39.jpg","./img-4.jpg":"assets/img-4.jpg","./img-40.jpg":"assets/img-40.jpg","./img-41.jpg":"assets/img-41.jpg","./img-42.jpg":"assets/img-42.jpg","./img-43.jpg":"assets/img-43.jpg","./img-44.jpg":"assets/img-44.jpg","./img-45.jpg":"assets/img-45.jpg","./img-46.jpg":"assets/img-46.jpg","./img-47.jpg":"assets/img-47.jpg","./img-48.jpg":"assets/img-48.jpg","./img-49.jpg":"assets/img-49.jpg","./img-5.jpg":"assets/img-5.jpg","./img-50.jpg":"assets/img-50.jpg","./img-51.jpg":"assets/img-51.jpg","./img-52.jpg":"assets/img-52.jpg","./img-53.jpg":"assets/img-53.jpg","./img-54.jpg":"assets/img-54.jpg","./img-55.jpg":"assets/img-55.jpg","./img-56.jpg":"assets/img-56.jpg","./img-57.jpg":"assets/img-57.jpg","./img-58.jpg":"assets/img-58.jpg","./img-59.jpg":"assets/img-59.jpg","./img-6.jpg":"assets/img-6.jpg","./img-60.jpg":"assets/img-60.jpg","./img-61.jpg":"assets/img-61.jpg","./img-62.jpg":"assets/img-62.jpg","./img-7.jpg":"assets/img-7.jpg","./img-8.jpg":"assets/img-8.jpg","./img-9.jpg":"assets/img-9.jpg"}],"index.js":[function(require,module,exports) {
 (function useImages() {
   container = document.querySelector(".container");
 
@@ -351,7 +351,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51242" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54118" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
